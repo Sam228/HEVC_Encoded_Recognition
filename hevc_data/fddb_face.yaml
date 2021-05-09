@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ./hevc_data/train_list.txt
+val: ./hevc_data/val_list.txt
+test: ./hevc_data/val_list.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['person']
